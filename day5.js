@@ -11,13 +11,13 @@ console.log("********************************************");
 
 //while(condition)
 
-// let num=1;
-// while(num<=10)
-// {
-//     console.log(num);
-//     num++;
-// }
-// console.log("************************************");
+let num=1;
+while(num<=10)
+{
+    console.log(num);
+    num++;
+}
+console.log("************************************");
 
 
 //dowhile
