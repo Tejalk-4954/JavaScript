@@ -97,3 +97,54 @@ console.log(Object.isSealed(objj));//return true or false
 console.log(Object.entries(objj));//enteries returns the key value pair of object in the format of an array
 
 
+//8.object.defineProperty(objectname,property,{descriptor})
+
+let student1={
+
+    name:"XYZ",
+    roll_no:1
+}
+
+Object.defineProperty(student1,'marks',
+    {
+        value:88, //value  used to give value to property
+        enumerable:true,//use to show property
+        writable:true,//used to modify the value 
+        configurable:true//used to delete property
+    }
+);
+
+// console.log(student1);
+
+
+//9.getOwnPropertyDescriptor()
+
+console.log( Object.getOwnPropertyDescriptor(student1,'marks'));//it gives the descriptor of property
+
+//10.defineProperties()
+
+Object.defineProperties(student1,//used to add more properties at a time
+    {
+        "grade":
+        {
+            value:"A",
+            writable:true,
+            enumerable:true,
+            configurable:true
+        },
+        "result":
+        {
+            value:"pass",
+            enumerable:true,
+            configurable:true,
+            writable:true
+        }
+    }
+);
+
+console.log(student1);
+
+
+//11.getOwnPropertyDescriptors(objectname)
+
+console.log( Object.getOwnPropertyDescriptors(student1));
