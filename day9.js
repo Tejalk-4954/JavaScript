@@ -10,5 +10,15 @@ console.log(str.charCodeAt(1));//charcodeAt  gives the ascii value of that index
 console.log(str.charCodeAt());//if we doesnt provide any index then the it gives 0th index asciii value
 
 
+let str2="learn java";
+console.log(str2.slice(3));//same as array method
+console.log(str2.slice(2,5));
+
+console.log(str2.substring(1,4));//same as  slice 
+console.log(str2.substr(1,4));//substr includes both start and end index
+
+let str3="javascript";
+console.log(str3.toUpperCase());
+console.log(str3.toLocaleUpperCase);
 
 
