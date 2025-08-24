@@ -21,4 +21,9 @@ let str3="javascript";
 console.log(str3.toUpperCase());
 console.log(str3.toLocaleUpperCase);
 
+console.log(str3.toLowerCase());
+console.log(str3.toLocaleLowerCase);
+
+
+
 
