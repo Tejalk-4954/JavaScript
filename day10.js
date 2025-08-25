@@ -23,6 +23,7 @@ console.log("byeee");
 let timer=setTimeout(print,1000);
 flag=false;
 
+//clear timeout clear settimeout
 
 
 
