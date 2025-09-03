@@ -20,8 +20,7 @@ prom.then((v)=>
         if(j.completed==true){
             console.log(j);
             console.log("******************************************");
-            
-            
+          
         }
     })
 })
