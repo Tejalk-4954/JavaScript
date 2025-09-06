@@ -34,7 +34,18 @@ console.log(str.concat(str3,str4));
 let msg="   aarushi   ";
 
 console.log(msg+"hi");
-console.log(msg.trim()+"hey");
-console.log(msg.trimStart(),"by");
-console.log(msg.trimEnd(),"hello");
+console.log(msg.trim()+"hey");//remove spaces
+console.log(msg.trimStart(),"by");//remove start space
+console.log(msg.trimEnd(),"hello");//remove ending space
+
+let Stringg ="Dhanu";
+console.log(Stringg.padStart(4,"*"));
+console.log(Stringg.padEnd(10,"$"));
+
+
+let stringg2="Apple";
+console.log(stringg2.repeat(4));//repeats the string for n time
+console.log(stringg2.repeat(0));
+console.log(stringg2.repeat(10));
+
 
