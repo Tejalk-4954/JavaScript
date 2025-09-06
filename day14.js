@@ -38,3 +38,5 @@ let [deposit,withdraw,returnbalance]=account();
 deposit(4000);
 withdraw(2000);
 returnbalance();
+
+deposit(2000);
