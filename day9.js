@@ -24,6 +24,17 @@ console.log(str3.toLocaleUpperCase);
 console.log(str3.toLowerCase());
 console.log(str3.toLocaleLowerCase);
 
+let str4="unique system skills";
+console.log(str4.toUpperCase());
+
+console.log(str.concat(str3,str4));
 
 
+
+let msg="   aarushi   ";
+
+console.log(msg+"hi");
+console.log(msg.trim()+"hey");
+console.log(msg.trimStart(),"by");
+console.log(msg.trimEnd(),"hello");
 
