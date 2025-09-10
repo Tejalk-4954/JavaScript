@@ -29,6 +29,7 @@ let v=Object.setPrototypeOf(person1,person2);
 console.log(v);
 
 
+
 // person1.demo();
 // person2.demo();
 // console.log(person2);
